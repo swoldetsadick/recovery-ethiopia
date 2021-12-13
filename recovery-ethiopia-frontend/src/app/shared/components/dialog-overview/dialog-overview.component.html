@@ -1,0 +1,21 @@
+<div class="full-box">
+    <div class="title pad"> {{ title }} </div>
+    <div *ngIf="type === 'terms' || type === 'copyright'"> {{ content }} </div>
+    <div class="container" *ngIf="type === 'language'">
+        <div class="horizontal-center">
+            <button mat-raised-button (click)="changeLanguage('ar')" class="image-cover language-button arabic"
+                    aria-label="Arabic language" [disabled]="applicationInformation && applicationInformation.lang === 'ar'"></button>
+            <button mat-raised-button (click)="changeLanguage('de')" class="image-cover language-button german"
+                    aria-label="German language" [disabled]="applicationInformation && applicationInformation.lang === 'de'"></button>
+            <button mat-raised-button (click)="changeLanguage('en')" class="image-cover language-button english"
+                    aria-label="English language" [disabled]="applicationInformation && applicationInformation.lang === 'en'"></button>
+            <button mat-raised-button (click)="changeLanguage('fr')" class="image-cover language-button french"
+                    aria-label="French language" [disabled]="applicationInformation && applicationInformation.lang === 'fr'"></button>
+            <button mat-raised-button (click)="changeLanguage('it')" class="image-cover language-button italian"
+                    aria-label="Italian language" [disabled]="applicationInformation && applicationInformation.lang === 'it'"></button>
+        </div>
+    </div>
+    <div mat-dialog-actions class="dialog-actions">
+        <button i18n="@@000007" class="action-button" mat-raised-button (click)="onClose()"> Close </button>
+    </div>
+</div>

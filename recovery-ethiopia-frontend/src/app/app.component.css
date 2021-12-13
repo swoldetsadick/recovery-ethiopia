@@ -1,0 +1,95 @@
+/* Styles for app.component */
+
+/* By Tag */
+
+/* By Class */
+
+.color {
+    color: var(--white);
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    font-size: 80%;
+    font-weight: bold;
+    height: 2.5%;
+    padding: 0 1% 0 1%;
+    position: relative;
+    text-align: center;
+}
+
+.language-button {
+    height: 56px;
+    margin: 0;
+    padding: 0;
+    resize: both;
+    transform: scale(.25);
+}
+
+.main {
+    font-family: NotoSerifEthiopic, 'Helvetica Neue', sans-serif;
+}
+
+.main-container {
+    height: 91%;
+}
+
+.meta {
+    background-color: var(--anthracite);
+    height: 12%;
+    left: 1%;
+    position: absolute;
+    top: 1%;
+    text-align: center;
+    width: 6%;
+    z-index: 5;
+}
+
+.text-container {
+    padding: 0 1%;
+}
+
+.toolbar {
+    background-color: rgb(0, 0, 0);
+    color: var(--white);
+    height: 5%;
+    padding-left: 7%;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+/* By ID */
+
+#logo {
+    background-color: rgba(255, 255, 255, 0);
+    transform: scale(1.5) translateY(33%);
+}
+
+/* Languages */
+
+.arabic {
+    background-image: url('../assets/icons/countries-squared/sa.svg');
+}
+
+.english {
+    background-image: url('../assets/icons/countries-squared/gb.svg');
+}
+
+.french {
+    background-image: url('../assets/icons/countries-squared/fr.svg');
+}
+
+.german {
+    background-image: url('../assets/icons/countries-squared/de.svg');
+}
+
+.italian {
+    background-image: url('../assets/icons/countries-squared/it.svg');
+}

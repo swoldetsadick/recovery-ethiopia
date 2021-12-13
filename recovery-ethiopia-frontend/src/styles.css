@@ -1,0 +1,314 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Fonts */
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 100;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-Thin.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 200;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-ExtraLight.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 300;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 400;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 500;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 600;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 700;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 800;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-ExtraBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic;
+    font-weight: 900;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic/NotoSerifEthiopic-Black.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 100;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-Thin.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 200;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-ExtraLight.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 300;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 400;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 500;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 600;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 700;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 800;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-ExtraBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_Condensed;
+    font-weight: 900;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_Condensed/NotoSerifEthiopic_Condensed-Black.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 100;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-Thin.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 200;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-ExtraLight.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 300;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 400;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 500;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 600;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 700;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 800;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-ExtraBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_ExtraCondensed;
+    font-weight: 900;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_ExtraCondensed/NotoSerifEthiopic_ExtraCondensed-Black.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 100;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-Thin.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 200;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-ExtraLight.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 300;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 400;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 500;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 600;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 700;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 800;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-ExtraBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: NotoSerifEthiopic_SemiCondensed;
+    font-weight: 900;
+    src: url('assets/fonts/Noto_Serif_Ethiopic/static/NotoSerifEthiopic_SemiCondensed/NotoSerifEthiopic_SemiCondensed-Black.ttf') format('ttf');
+}
+
+/* Variables */
+
+:root {
+    --anthracite: #262626; /** Font colour, standard button hover / selected, standard icon hover / selected **/
+    --blue-0: rgba(28, 105, 212, .3); /** CTA button default, CTA icon default **/
+    --blue-1: #0653b6; /** CTA button hover / selected, CTA icon hover / selected **/
+    --blue-2: #1c69d4; /** CTA button default, CTA icon default **/
+    --blue-4: #1f94ff; /** Dark mode CTA button hover / selected **/
+    --green: #3c8839; /** R61 G176 B20 Confirmation **/
+    --grey-0: rgba(77, 77, 77, .3); /** Standard icon disabled, UI elements disabled **/
+    --grey-1: #4d4d4d; /** Standard button default, standard icon default, illustrative icons default **/
+    --grey-2: #666666; /** Inactive navigation elements (tabs etc.) **/
+    --grey-3: #8e8e8e; /** Font colour in the footer, frame (input fields etc.) **/
+    --grey-4: #e6e6e6; /** UI table backgrounds, dividing lines, footer **/
+    --grey-5: #f2f2f2; /** Gradient backgrounds **/
+    --red: #c92d25; /** DR210 G0 B0 Error message **/
+    --yellow: #f7df4b; /** DR255 G173 B31 Warning **/
+    --white: #ffffff; /** Background **/
+}
+
+
+/* By Tag */
+
+html, body {
+    color: var(--white);
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+    font-family: NotoSerifEthiopic, 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* By Class */
+
+.background {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background: url('assets/images/highlands.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.base {
+    background-color: rgba(255, 255, 255, .7) !important;
+}
+
+.full-box {
+    height: 100%;
+    width: 100%;
+}
+
+.image-cover {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    background-image: url('assets/images/logo.png');
+}
+
+.overflow-hide {
+    overflow: hidden;
+}
+
+.snack {
+    background-color: #557A95;
+    color: var(--anthracite);
+    font-weight: bold;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.transparent-background {
+    background-color: transparent !important;
+}
+
+/* By ID */
+
+

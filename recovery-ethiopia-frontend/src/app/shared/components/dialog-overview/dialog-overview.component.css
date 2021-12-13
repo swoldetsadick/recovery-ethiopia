@@ -1,0 +1,57 @@
+/* Styles for dialog-overview.component */
+
+/* By Tag */
+
+/* By Class */
+
+.action-button {
+    background-color: var(--anthracite);
+    color: var(--white);
+    font-weight: bold;
+}
+
+.dialog-actions {
+    float: right;
+}
+
+.horizontal-center {
+    text-align: center;
+    width: 100%;
+}
+
+.language-button {
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    resize: both;
+    transform: scale(.25);
+}
+
+.pad {
+    padding-bottom: 2%;
+}
+
+/* By ID */
+
+
+/* Languages */
+
+.arabic {
+    background-image: url('../../../../assets/icons/countries-squared/sa.svg');
+}
+
+.english {
+    background-image: url('../../../../assets/icons/countries-squared/gb.svg');
+}
+
+.french {
+    background-image: url('../../../../assets/icons/countries-squared/fr.svg');
+}
+
+.german {
+    background-image: url('../../../../assets/icons/countries-squared/de.svg');
+}
+
+.italian {
+    background-image: url('../../../../assets/icons/countries-squared/it.svg');
+}

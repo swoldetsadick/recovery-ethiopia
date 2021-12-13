@@ -1,0 +1,65 @@
+<div class="full-box overflow-hide main">
+
+    <!-- toolbar -->
+    <mat-toolbar class="toolbar">
+        <mat-toolbar-row>
+            <span class="title"> {{ title }} </span>
+            <span class="spacer"></span>
+
+            <button mat-icon-button>
+                <mat-icon (click)="changeLanguage()" aria-label="icon-button to change languages">person</mat-icon>
+            </button>
+
+            <button mat-icon-button>
+                <mat-icon (click)="changeLanguage()" aria-label="icon-button to change languages">login</mat-icon>
+            </button>
+
+            <button mat-icon-button>
+                <mat-icon (click)="changeLanguage()" aria-label="icon-button to change languages">logout</mat-icon>
+            </button>
+
+            <button mat-icon-button>
+                <mat-icon (click)="changeLanguage()" aria-label="icon-button to change languages">language</mat-icon>
+            </button>
+
+        </mat-toolbar-row>
+    </mat-toolbar>
+
+    <div class="meta">
+        <button mat-fab id="logo" class="image-cover logo" aria-label="Recovery Ethiopia Logo" disabled></button>
+    </div>
+
+    <!-- router outlet -->
+    <div class="main-container">
+        <router-outlet></router-outlet>
+    </div>
+
+    <footer class="footer">
+        <div class="vertical-center">
+            <span class="text-container" (click)="openDialog('copyright')"> © {{ title }}, {{ year }} </span>
+            |
+            <span class="text-container" (click)="openDialog('terms')"> {{ termsConditionsLink }} </span>
+        </div>
+    </footer>
+    <!-- toolbar
+    <div class="footer">
+        <div class="vertical-center">
+                 © {{ title }}, {{ year }}
+
+                <button mat-raised-button (click)="changeLanguage('ar')" class="image-cover language-button arabic"
+                        aria-label="Arabic language" [disabled]="applicationInformation.lang === 'ar'"></button>
+                <button mat-raised-button (click)="changeLanguage('de')" class="image-cover language-button german"
+                        aria-label="German language" [disabled]="applicationInformation.lang === 'de'"></button>
+                <button mat-raised-button (click)="changeLanguage('en')" class="image-cover language-button english"
+                        aria-label="English language" [disabled]="applicationInformation.lang === 'en'"></button>
+                <button mat-raised-button (click)="changeLanguage('fr')" class="image-cover language-button french"
+                        aria-label="French language" [disabled]="applicationInformation.lang === 'fr'"></button>
+                <button mat-raised-button (click)="changeLanguage('it')" class="image-cover language-button italian"
+                        aria-label="Italian language" [disabled]="applicationInformation.lang === 'it'"></button>
+
+        </div>
+    </div>
+    -->
+</div>
+
+

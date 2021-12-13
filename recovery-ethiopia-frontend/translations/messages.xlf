@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="000001" datatype="html">
+        <source>Terms &amp; Conditions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="000000" datatype="html">
+        <source>Recovery Ethiopia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="000007" datatype="html">
+        <source> Close </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/dialog-overview/dialog-overview.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="000002" datatype="html">
+        <source>Please choose your language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/dialog-overview/dialog-overview.component.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="000003" datatype="html">
+        <source>Terms &amp; Conditions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/dialog-overview/dialog-overview.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="000005" datatype="html">
+        <source></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/dialog-overview/dialog-overview.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="000004" datatype="html">
+        <source>Copyright</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/dialog-overview/dialog-overview.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="000006" datatype="html">
+        <source>© Copyright Recovery Ethiopia, Munich, Germany. All rights reserved. The
+            text, images, graphics, sound files, animation files, video files, and their arrangement on this website are
+            all subject to copyright and other intellectual property protection. These objects may not be copied for
+            commercial use or distribution, nor may these objects be modified or reposted to other sites. This website
+            may contain images whose copyrights are attributable to third parties.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/dialog-overview/dialog-overview.component.ts</context>
+          <context context-type="linenumber">61,65</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
